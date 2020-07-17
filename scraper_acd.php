@@ -91,4 +91,4 @@ if($lastBattery['id'] == $productId)
     print "All known batteries processed. Clearing progress marker so scraper can start again.";
     scraperwiki::save_var("currentId", -1);
 }
-?>
+?> 
